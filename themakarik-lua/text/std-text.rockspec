@@ -1,16 +1,16 @@
-package = "strings"
-version = "dev-1"
+package = "themakariks-strings"
+version = "2026.1.0"
 source = {
    url = "*** please add URL for source tarball, zip or repository here ***"
 }
 description = {
    homepage = "*** please enter a project homepage ***",
-   license = "*** please specify a license ***"
+   license = "MIT"
 }
 build = {
    type = "builtin",
    modules = {
-      ["themakariks-stringBuilder"] = "string-builder.lua",
-      ["themakariks-strings"] = "string-extensions.lua"
+      ["std-text"] = "string-extensions.lua"
+      ["std-text-templates"] = "string-template.lua"
    }
 }
